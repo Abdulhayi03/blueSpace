@@ -1,4 +1,5 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,122 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* .empty-div2{
+  margin: 30px;
+} */
+
+.empty-div{
+  margin: 63px;
 }
+
+.empty-div2{
+  margin-top: 35px;
+}
+
+.foota{
+  margin-top: 25px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; 
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand{
+  font-size: 1.7rem !important;
+  color: #302b6e !important;
+}
+
+.navbar a {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid darkblue;
+  color: dodgerblue !important;
+
+}
+
+.navbar a:hover{
+  color: dodgerblue !important;
+}
+
+@media (max-width: 991px){
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+.container-fluid-sp{
+  margin-top: 110px;
+}
+
+.brand-name{
+  color: dodgerblue !important;
+}
+
+.btn-get-started{
+  border: 1px solid dodgerblue;
+  padding: 13px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 2rem;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.btn-get-started:hover{
+  background-color:dodgerblue;
+  color: #fff;
+  
+}
+
+.mte-3{
+  margin-top: 30px;
+}
+
+.myes-2
+{
+  width: 80%;
+  font-size: 42px;
+  font-weight: bolder;
+  word-spacing: -0.3rem;
+}
+
+.myes-3{
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.img-fluid{
+  margin-left: 80px;
+}
+.animated{
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   { bottom:0px;}
+  50%  { bottom:30px;}
+  100% { bottom:0px;}
+}
+
+
+
